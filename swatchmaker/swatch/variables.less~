@@ -60,7 +60,7 @@
 
 @baseFontSize:          11px;
 @baseFontFamily:        @sansFontFamily;
-@baseLineHeight:        16px;
+@baseLineHeight:        14px;
 @altFontFamily:         @serifFontFamily;
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily

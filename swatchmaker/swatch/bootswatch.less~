@@ -83,20 +83,3 @@
   padding-bottom: 4px;
   .border-radius(2px);
 }
-
-// HEADERS
-// -------
-
-h1.tab, 
-h2.tab, 
-h3.tab, 
-h4.tab, 
-h5.tab, 
-h6.tab {
-  border-bottom: 1px solid @grayLighter;
-  border-top: 1px solid @grayLighter;
-  margin-bottom: 8px;
-  padding: 3px 6px;
-  background: @grayWhite;
-  font-weight: bold;
-}
