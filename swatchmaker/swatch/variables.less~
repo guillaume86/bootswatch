@@ -60,7 +60,7 @@
 
 @baseFontSize:          11px;
 @baseFontFamily:        @sansFontFamily;
-@baseLineHeight:        14px;
+@baseLineHeight:        16px;
 @altFontFamily:         @serifFontFamily;
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
@@ -184,11 +184,11 @@
 @warningBackground:       @yellowLight;
 @warningBorder:           @yellow;
 
-@errorText:               @grayDark;
+@errorText:               darken(@red, 5%);
 @errorBackground:         @redLight;
 @errorBorder:             @red;
 
-@successText:             @grayDark;
+@successText:             @blueDark;
 @successBackground:       @blueLighter;
 @successBorder:           @blueLight;
 
