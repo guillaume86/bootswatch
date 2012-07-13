@@ -720,6 +720,7 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .btn-group>.btn:last-child,.btn-group>.dropdown-toggle{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}
 .btn-group>.btn.large:first-child{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}
 .btn-group>.btn.large:last-child,.btn-group>.large.dropdown-toggle{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}
+.alert{-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;}
 .modal{-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-webkit-box-shadow:0 0 0px 8px rgba(82, 82, 82, 0.7);-moz-box-shadow:0 0 0px 8px rgba(82, 82, 82, 0.7);box-shadow:0 0 0px 8px rgba(82, 82, 82, 0.7);}
 .nav-tabs>li>a{padding-top:4px;padding-bottom:4px;-webkit-border-radius:2px 2px 0 0;-moz-border-radius:2px 2px 0 0;border-radius:2px 2px 0 0;}.nav-tabs>li>a:hover{background-color:#f2f2f2;border-color:#f2f2f2 #f2f2f2 #dddddd;}
 .nav-pills>li>a{padding-top:4px;padding-bottom:4px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}

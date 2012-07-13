@@ -4254,6 +4254,11 @@ a.badge:hover {
   -moz-border-radius: 0px;
   border-radius: 0px;
 }
+.alert {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
 .modal {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
