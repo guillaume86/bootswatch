@@ -67,6 +67,15 @@
   <h1>Swatch</h1>
   <p class="lead">A preview of changes in this swatch.</p>
   <div class="subnav">
+	<div class="progress-container pull-right" style="width: 200px; padding: 4px">
+		 <div class="progress progress-step">
+			<div class="step step-done"></div>
+			<div class="step step-done" style="left:33%"></div>
+			<div class="step step-active popover-trigger" style="left:66%" data-content="This is the step 1" data-title="Step 1" data-placement="bottom"></div>
+			<div class="step" style="left:100%"></div>
+			<div class="bar" style="width: 66%;"></div>
+		</div>
+	</div>
     <ul class="nav nav-pills">
       <li><a href="#typography">Typography</a></li>
       <li><a href="#navbar">Navbar</a></li>
@@ -673,6 +682,14 @@
     <script src="../bootstrap/docs/assets/js/bootstrap-collapse.js"></script>-->
     <script src="../bootstrap/docs/assets/js/application.js"></script>
 
+		<script>
+		// popover demo
+		$(".popover-trigger")
+		  .popover()
+		  .click(function(e) {
+			e.preventDefault()
+		  })
+		  </script>
 
   </body>
 </html>
