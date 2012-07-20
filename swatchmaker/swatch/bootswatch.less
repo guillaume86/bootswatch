@@ -115,7 +115,7 @@ h6.tab {
 // PROGRESS STEP
 // -------------
 @progressStepSize: 20px;
-@progressHeight: 10px;
+@progressHeight: 8px;
 @progressStepBorderSize: 3px;
 @progressStepRadius: @progressStepSize / 2;
 @progressStepMargin1: @progressStepRadius - 1px;
@@ -142,6 +142,7 @@ h6.tab {
   }
 
   .step {
+    display: block;
     height: @progressStepSize;
     width: @progressStepSize;
     .border-radius(@progressStepRadius);
