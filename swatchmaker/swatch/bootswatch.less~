@@ -167,8 +167,8 @@ h6.tab {
 
   .step.step-active {
     border: solid @progressStepBorderSize @blue;
-    height: @progressStepSize - (progressStepBorderSize * 2);
-    width: @progressStepSize - (progressStepBorderSize * 2);
+    height: @progressStepSize - (@progressStepBorderSize * 2);
+    width: @progressStepSize - (@progressStepBorderSize * 2);
   }
 }
 
